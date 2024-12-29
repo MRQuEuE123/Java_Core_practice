@@ -3,10 +3,10 @@
 
 /.idea/workspace.xml
 
-
+# Output directory
 out/
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
