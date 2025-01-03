@@ -2,7 +2,7 @@
 
 ## Содержание
 
-- [Module 1. Асимптотические обозначения](./Module_01/README.md)
+- [Module 1. Асимптотические обозначения](./Module_01)
 - [Module 2. Алгоритмы «разделяй и властвуй»](./Module_02/README.md)
 - Module 3. Основной метод
 - [Module 4. Алгоритм QuickSort](./Module_04/README.md)
