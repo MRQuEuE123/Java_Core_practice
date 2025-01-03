@@ -3,11 +3,11 @@
 ## Содержание
 
 - [Module 1. Асимптотические обозначения](./Module_01)
-- [Module 2. Алгоритмы «разделяй и властвуй»](./Module_02/README.md)
+- [Module 2. Алгоритмы «разделяй и властвуй»](./Module_02)
 - Module 3. Основной метод
-- [Module 4. Алгоритм QuickSort](./Module_04/README.md)
-- [Module 5. Линейный выбор](./Module_05/README.md)
-- [Module 6. Графы: Основы](./Module_06/README.md)
+- [Module 4. Алгоритм QuickSort](./Module_04)
+- [Module 5. Линейный выбор](./Module_05)
+- [Module 6. Графы: Основы](./Module_06)
 - Module 7. Поиск в графе и его применения
 - Module 8. Алгоритм кратчайшего пути Дейкстры
 - Module 9. Куча
