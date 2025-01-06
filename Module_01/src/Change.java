@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Change {
@@ -22,6 +23,8 @@ public class Change {
             System.out.println("Количество монет для суммы "+ k+" будет "+ coins);
             System.out.println("и будет состоять из :");
             printCoins(coinsUsed, k);
+            System.out.println();
+            System.out.println(Arrays.toString(coinsUsed));
 
             writer.newLine();
         }
@@ -52,5 +55,6 @@ public class Change {
             System.out.print(thisCoin+" ");
             coin = coin - thisCoin;
         }
+
     }
 }
