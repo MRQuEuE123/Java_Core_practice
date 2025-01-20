@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LeetDijkstra {
 //https://leetcode.com/problems/network-delay-time/solutions/2310813/dijkstra-s-algorithm-template-list-of-problems/
-        public int networkDelayTime(int[][] times, int n, int k) {
+        public static int networkDelayTime(int[][] times, int n, int k) {
 
             //Step 1
             Map<Integer, Map<Integer, Integer>> map = new HashMap<>();
@@ -50,5 +50,18 @@ public class LeetDijkstra {
 
             return res == Integer.MAX_VALUE ? -1 : res;
         }
+    public static void main(String[] args) {
+        int n =5 ;
+        int[][] edges = {
+                {2,1,1},
+                {2,3,1},
+                {3,4,1},
+                {1,5,10}
+        };
+        int k = 2;
+
+        int result = networkDelayTime(edges,n,k);
+        System.out.println("Минимальное время для достижения сигналом всех: " + result);
+    }
 
 }
