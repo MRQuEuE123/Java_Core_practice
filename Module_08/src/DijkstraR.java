@@ -13,9 +13,9 @@ public class DijkstraR {
     }
 
     public static void main(String[] args) throws IOException {
-        //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader br = new BufferedReader(new FileReader("D:\\Java\\2024\\Java_Core_practice\\Module_08\\input.txt"));
-        BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Java\\2024\\Java_Core_practice\\Module_08\\src\\output.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedReader br = new BufferedReader(new FileReader("D:\\Java\\2024\\Java_Core_practice\\Module_08\\input.txt"));
+        //BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Java\\2024\\Java_Core_practice\\Module_08\\src\\output.txt"));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -42,9 +42,9 @@ public class DijkstraR {
         int B = Integer.parseInt(st.nextToken());
 
         long result = dijkstra(graph, N, A, B);
-        //System.out.println(result);
-        writer.write(String.valueOf(result));
-        writer.close();
+        System.out.println(result);
+        //writer.write(String.valueOf(result));
+        //writer.close();
     }
 
     private static long dijkstra(List<List<Edge>> graph, int N, int start, int end) {
