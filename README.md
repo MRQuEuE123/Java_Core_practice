@@ -14,7 +14,7 @@
 - [Module 10. Дерево поиска](./Module_10)
 - Module 11. Хеш-таблицы и фильтры блума
 - Module 12. Git
-- Module 13. SQL
+- [Module 13. SQL](./Module_13)
 - Module 14. Web
 - Module 15. Паттерны написания кода
 - Module 16. Паттерны Архитектурные GoF
