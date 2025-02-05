@@ -12,7 +12,7 @@
 - [Module 8. Алгоритм кратчайшего пути Дейкстры](./Module_08)
 - Module 9. Куча
 - [Module 10. Дерево поиска](./Module_10)
-- Module 11. Хеш-таблицы и фильтры блума
+- [Module 11. Хеш-таблицы и фильтры блума](./Module_11)
 - Module 12. Git
 - [Module 13. SQL](./Module_13)
 - Module 14. Web
