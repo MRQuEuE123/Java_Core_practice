@@ -1,4 +1,5 @@
 # Module 15. Паттерны написания кода (SOLID, KISS, DRY)
-
+[Главная страница](..)
 - [SOLID](./SOLID.md)
-- KISS
+- [KISS](./KISS.md)
+- [DRY](./DRY.md)
